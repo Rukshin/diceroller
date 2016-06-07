@@ -1,0 +1,23 @@
+{
+    "name": "rukshin/diceroller",
+    "description": "This is a dice roller generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Pulido",
+            "email": "jpulidofontalba@gmail.com"
+        }
+    ],
+    "require": {
+	"php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DiceRoller\\": "src/"
+        }
+    }
+}
